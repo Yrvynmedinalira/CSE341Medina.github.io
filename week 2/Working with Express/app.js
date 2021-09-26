@@ -7,14 +7,19 @@ app.use('/', (req, res, next) => {
     next();
 });
 
-app.use('/add-product', (req, res, next) => {
-  console.log('In another middleware!');
-  res.send('<h1>The "Add Product" Page</h1>');
+const express = require('express');
+
+const app = express();
+
+app.use('/users', (req, res, next) => {
+    console.log('/users middleware');
+    res.send('<p>The Middleware that handles just /users</p>');
 });
 
 app.use('/', (req, res, next) => {
-  console.log('In another middleware!');
-  res.send('<h1>Hello from Express!</h1>');
+    console.log('/ middleware');
+    res.send('<p>The Middleware that handles just /</p>');
 });
+
 
 app.listen(3000);
