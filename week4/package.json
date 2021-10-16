@@ -1,0 +1,35 @@
+{
+  "name": "cse341medina.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prove04.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon prove04.js",
+    "start-server": "node prove04.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrvynmedinalira/CSE341Medina.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrvynmedinalira/CSE341Medina.github.io/issues"
+  },
+  "homepage": "https://github.com/Yrvynmedinalira/CSE341Medina.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^1.6.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
