@@ -1,0 +1,25 @@
+{
+  "name": "cse341-project.github.io",
+  "version": "1.0.0",
+  "description": "School project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrvynmedinalira/cse341-project.github.io.git"
+  },
+  "author": "Yrvyn Medina Lira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrvynmedinalira/cse341-project.github.io/issues"
+  },
+  "homepage": "https://github.com/Yrvynmedinalira/cse341-project.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
