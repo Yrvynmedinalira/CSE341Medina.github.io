@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "asignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrvynmedinalira/cse341-project.github.io.git"
+  },
+  "author": "Yrvyn Medina Lira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrvynmedinalira/cse341-project.github.io/issues"
+  },
+  "homepage": "https://github.com/Yrvynmedinalira/cse341-project.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
