@@ -1,0 +1,26 @@
+{
+  "name": "2nd-asigment",
+  "version": "1.0.0",
+  "description": "2nd asigment",
+  "main": "asign2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon asign2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrvynmedinalira/cse341-project.github.io.git"
+  },
+  "author": "Yrvyn Medina Lira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrvynmedinalira/cse341-project.github.io/issues"
+  },
+  "homepage": "https://github.com/Yrvynmedinalira/cse341-project.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
