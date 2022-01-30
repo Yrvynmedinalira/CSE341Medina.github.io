@@ -54,4 +54,18 @@ mongoose
   .catch(err => {
     console.log(err);
   });
+  const cors = require('cors') // Place this with other requires (like 'path' and 'express')
+
+const corsOptions = {
+    origin: "https://cse341prove.herokuapp.com/",
+    optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
+
+const options = {
+    family: 4
+};
+
+const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://yrvyn:medina@cluster0.hxnnv.mongodb.net/shop?retryWrites=true&w=majority";
+                        
 
