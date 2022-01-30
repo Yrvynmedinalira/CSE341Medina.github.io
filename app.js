@@ -71,7 +71,7 @@ const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://yrvyn:medina@clust
 
 mongoose
   .connect(
-    MONGODB_URL
+    MONGODB_URL, options
   )
   .then(result => {
      // This should be your user handling code implement following the course videos
