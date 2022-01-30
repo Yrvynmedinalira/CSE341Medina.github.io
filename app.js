@@ -69,3 +69,14 @@ const options = {
 const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://yrvyn:medina@cluster0.hxnnv.mongodb.net/shop?retryWrites=true&w=majority";
                         
 
+mongoose
+  .connect(
+    MONGODB_URL
+  )
+  .then(result => {
+     // This should be your user handling code implement following the course videos
+    app.listen(PORT);
+  })
+  .catch(err => {
+    console.log(err);
+  });
