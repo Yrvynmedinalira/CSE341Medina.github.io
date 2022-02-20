@@ -9,6 +9,11 @@
     width: 20rem;
     max-width: 95%;
     margin: 1rem;
+    box-shadow:
+    0 0 30px 15px #fff,  
+    0 0 25px 15px  #DAF7A6 , 
+    0 0 35px 22px  #FFC300 ; 
+
 }
 
 .product__title {
